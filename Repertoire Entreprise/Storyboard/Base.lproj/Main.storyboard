@@ -33,24 +33,27 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="LJi-Y0-ez8"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="Vous ne trouvez pas votre entreprise ?">
+                                            <color key="titleColor" red="1" green="0.36323842709999998" blue="0.46355823369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="ajouterEntrepriseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kyv-FQ-vwU"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0F4-t2-tKk">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0F4-t2-tKk" customClass="ImageArrondie" customModule="Repertoire_Entreprise" customModuleProvider="target">
                                         <rect key="frame" x="117" y="206" width="180" height="180"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="9KF-pN-Ql4"/>
                                             <constraint firstAttribute="width" constant="180" id="nje-9w-RzH"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr9-Zs-Uzt">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jr9-Zs-Uzt" customClass="BoutonArrondie" customModule="Repertoire_Entreprise" customModuleProvider="target">
                                         <rect key="frame" x="20" y="616" width="374" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ahX-wF-SKw"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Ajouter la personne"/>
                                         <connections>
                                             <action selector="ajouterPersonneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HKd-ff-F60"/>
                                         </connections>

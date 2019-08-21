@@ -16,7 +16,7 @@ class AjoutController: UIViewController {
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var ajouterEntreprise: UIButton!
     
-    @IBOutlet weak var ImageDeProfil: UIImageView!
+    @IBOutlet weak var ImageDeProfil: ImageArrondie!
     
     @IBOutlet weak var telTextField: UITextField!
     
@@ -24,10 +24,14 @@ class AjoutController: UIViewController {
     @IBOutlet weak var nomTextField: UITextField!
     @IBOutlet weak var mailTextField: UITextField!
     
-    @IBOutlet weak var ajouterPersonneBouton: UIButton!
+    @IBOutlet weak var ajouterPersonneBouton: BoutonArrondie!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // pour voir quelque chose
+        view.backgroundColor = .lightGray
+        largeurContrainte.constant = view.frame.width
+        scroll.contentSize = CGSize(width: largeurContrainte.constant, height: scroll.frame.height)
 
     }
     
