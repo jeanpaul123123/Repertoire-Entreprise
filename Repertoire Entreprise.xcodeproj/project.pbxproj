@@ -13,6 +13,7 @@
 		4BD19DD3230DCBB10002ACA9 /* Repertoire_Entreprise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DD1230DCBB00002ACA9 /* Repertoire_Entreprise.xcdatamodeld */; };
 		4BD19DD5230DCBB20002ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD19DD4230DCBB20002ACA9 /* Assets.xcassets */; };
 		4BD19DD8230DCBB20002ACA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD19DD6230DCBB20002ACA9 /* LaunchScreen.storyboard */; };
+		4BD19DE3230DCE660002ACA9 /* AjoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DE2230DCE660002ACA9 /* AjoutController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4BD19DD4230DCBB20002ACA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD19DD7230DCBB20002ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD19DD9230DCBB20002ACA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD19DE2230DCE660002ACA9 /* AjoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		4BD19DC9230DCBB00002ACA9 /* Repertoire Entreprise */ = {
 			isa = PBXGroup;
 			children = (
+				4BD19DDF230DCD9F0002ACA9 /* Model */,
+				4BD19DE0230DCDB60002ACA9 /* View */,
+				4BD19DE1230DCDC20002ACA9 /* Controller */,
+				4BD19DE4230DCE8C0002ACA9 /* Storyboard */,
 				4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */,
 				4BD19DCC230DCBB00002ACA9 /* ViewController.swift */,
-				4BD19DCE230DCBB00002ACA9 /* Main.storyboard */,
 				4BD19DD4230DCBB20002ACA9 /* Assets.xcassets */,
-				4BD19DD6230DCBB20002ACA9 /* LaunchScreen.storyboard */,
 				4BD19DD9230DCBB20002ACA9 /* Info.plist */,
-				4BD19DD1230DCBB00002ACA9 /* Repertoire_Entreprise.xcdatamodeld */,
 			);
 			path = "Repertoire Entreprise";
+			sourceTree = "<group>";
+		};
+		4BD19DDF230DCD9F0002ACA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BD19DE0230DCDB60002ACA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BD19DD1230DCBB00002ACA9 /* Repertoire_Entreprise.xcdatamodeld */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BD19DE1230DCDC20002ACA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BD19DE2230DCE660002ACA9 /* AjoutController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BD19DE4230DCE8C0002ACA9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4BD19DCE230DCBB00002ACA9 /* Main.storyboard */,
+				4BD19DD6230DCBB20002ACA9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +176,7 @@
 				4BD19DD3230DCBB10002ACA9 /* Repertoire_Entreprise.xcdatamodeld in Sources */,
 				4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */,
 				4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */,
+				4BD19DE3230DCE660002ACA9 /* AjoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
