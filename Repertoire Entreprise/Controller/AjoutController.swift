@@ -26,12 +26,16 @@ class AjoutController: UIViewController {
     
     @IBOutlet weak var ajouterPersonneBouton: BoutonArrondie!
     
+    var testPicker = ["Apple", "Alphabet","Big Blue","Microsoft","Facebook"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // pour voir quelque chose
-        view.backgroundColor = .lightGray
+        //view.backgroundColor = .lightGray
         largeurContrainte.constant = view.frame.width
         scroll.contentSize = CGSize(width: largeurContrainte.constant, height: scroll.frame.height)
+        
+        miseEnPlacePicker()
 
     }
     

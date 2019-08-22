@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */; };
 		4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */; };
 		4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCC230DCBB00002ACA9 /* ViewController.swift */; };
 		4BD19DD0230DCBB00002ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD19DCE230DCBB00002ACA9 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
 		4BD19DC7230DCBB00002ACA9 /* Repertoire Entreprise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repertoire Entreprise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD19DCC230DCBB00002ACA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				4BD19DE2230DCE660002ACA9 /* AjoutController.swift */,
+				4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				4BD19DD3230DCBB10002ACA9 /* Repertoire_Entreprise.xcdatamodeld in Sources */,
 				4BD19DE8230DE2080002ACA9 /* BoutonArrondie.swift in Sources */,
 				4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */,
+				4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */,
 				4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */,
 				4BD19DE3230DCE660002ACA9 /* AjoutController.swift in Sources */,
 			);
