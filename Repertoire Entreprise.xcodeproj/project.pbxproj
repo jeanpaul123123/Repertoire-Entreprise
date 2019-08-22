@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */; };
+		4BC6AEBF230EEA2E0089A0A0 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AEBE230EEA2E0089A0A0 /* Constantes.swift */; };
 		4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */; };
 		4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCC230DCBB00002ACA9 /* ViewController.swift */; };
 		4BD19DD0230DCBB00002ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD19DCE230DCBB00002ACA9 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
+		4BC6AEBE230EEA2E0089A0A0 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		4BD19DC7230DCBB00002ACA9 /* Repertoire Entreprise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repertoire Entreprise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD19DCC230DCBB00002ACA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BC6AEBD230EE9F90089A0A0 /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6AEBE230EEA2E0089A0A0 /* Constantes.swift */,
+			);
+			path = Utilitaire;
+			sourceTree = "<group>";
+		};
 		4BD19DBE230DCBB00002ACA9 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		4BD19DC9230DCBB00002ACA9 /* Repertoire Entreprise */ = {
 			isa = PBXGroup;
 			children = (
+				4BC6AEBD230EE9F90089A0A0 /* Utilitaire */,
 				4BD19DDF230DCD9F0002ACA9 /* Model */,
 				4BD19DE0230DCDB60002ACA9 /* View */,
 				4BD19DE1230DCDC20002ACA9 /* Controller */,
@@ -187,6 +198,7 @@
 				4BD19DE8230DE2080002ACA9 /* BoutonArrondie.swift in Sources */,
 				4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */,
 				4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */,
+				4BC6AEBF230EEA2E0089A0A0 /* Constantes.swift in Sources */,
 				4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */,
 				4BD19DE3230DCE660002ACA9 /* AjoutController.swift in Sources */,
 			);

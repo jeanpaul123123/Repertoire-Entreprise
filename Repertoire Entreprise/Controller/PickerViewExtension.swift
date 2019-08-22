@@ -16,7 +16,9 @@ extension AjoutController: UIPickerViewDelegate, UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return testPicker.count
+        //return testPicker.count
+        //#coredatapicker
+        return entreprises.count
     }
     
     // une seule colonne par ligne
@@ -27,11 +29,12 @@ extension AjoutController: UIPickerViewDelegate, UIPickerViewDataSource {
     // le forcomponent signifie que cela va boucler !!
     // chargement des entreprises dans le picker
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return testPicker[row]
+        //return testPicker[row]
+        return entreprises[row].nom
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print("Ligne choisie : " + testPicker[row])
+        print("Ligne choisie : " + entreprises[row].nom!)
     }
     
 

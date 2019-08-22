@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AjoutController: UIViewController {
 
@@ -26,7 +27,12 @@ class AjoutController: UIViewController {
     
     @IBOutlet weak var ajouterPersonneBouton: BoutonArrondie!
     
-    var testPicker = ["Apple", "Alphabet","Big Blue","Microsoft","Facebook"]
+    
+    // servait avant la création d'entités
+    //var testPicker = ["Apple", "Alphabet","Big Blue","Microsoft","Facebook"]
+    
+    //#coredatapicker
+    var entreprises = [Entreprise]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +42,23 @@ class AjoutController: UIViewController {
         scroll.contentSize = CGSize(width: largeurContrainte.constant, height: scroll.frame.height)
         
         miseEnPlacePicker()
+        
+        //#fetchrequete
+        fetchEntreprises()
 
+    }
+    
+    //#fetchrequete
+    func fetchEntreprises() {
+        let requete: NSFetchRequest<Entreprise> = Entreprise.fetchRequest()
+        let tri = NSSortDescriptor(key: "nom", ascending: true)
+        requete.sortDescriptors = [tri]
+        do {
+            entreprises = try contexte.fetch(requete)
+            pickerView.reloadAllComponents()
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
     @IBAction func ajouterPersonneAction(_ sender: Any) {
