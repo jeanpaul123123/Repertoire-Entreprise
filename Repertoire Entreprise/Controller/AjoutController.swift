@@ -55,6 +55,7 @@ class AjoutController: UIViewController {
     }
     
     //#fetchrequete
+    // ajout de l'entreprise dans les picker views
     func fetchEntreprises() {
         let requete: NSFetchRequest<Entreprise> = Entreprise.fetchRequest()
         // tri des données
@@ -84,6 +85,8 @@ class AjoutController: UIViewController {
                 nouvelleEntreprise.nom = texte
                 // Enregistrement des objets
                 appDelegate.saveContext()
+                
+                // ajout de l'entreprise dans les picker views
                 self.fetchEntreprises()
             }
             
