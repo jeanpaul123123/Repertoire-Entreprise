@@ -49,6 +49,8 @@ class AjoutController: UIViewController {
         
         miseEnPlacePicker()
         
+        miseEnPlaceTextField()
+        
         //#fetchrequete
         fetchEntreprises()
 
