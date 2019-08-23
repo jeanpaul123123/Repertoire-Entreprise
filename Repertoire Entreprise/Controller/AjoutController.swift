@@ -51,6 +51,8 @@ class AjoutController: UIViewController {
         
         miseEnPlaceTextField()
         
+        miseEnPlaceNotification()
+        
         //#fetchrequete
         fetchEntreprises()
 

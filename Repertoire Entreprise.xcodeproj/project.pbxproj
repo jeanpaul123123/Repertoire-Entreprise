@@ -11,6 +11,7 @@
 		4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */; };
 		4BAEC505231030F000C4C1AF /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEC504231030F000C4C1AF /* TextFieldExtension.swift */; };
 		4BC6AEBF230EEA2E0089A0A0 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AEBE230EEA2E0089A0A0 /* Constantes.swift */; };
+		4BCE1C2123107A84000C630B /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE1C2023107A84000C630B /* NotificationCenterExtension.swift */; };
 		4BD19DCB230DCBB00002ACA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */; };
 		4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD19DCC230DCBB00002ACA9 /* ViewController.swift */; };
 		4BD19DD0230DCBB00002ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD19DCE230DCBB00002ACA9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtension.swift; sourceTree = "<group>"; };
 		4BAEC504231030F000C4C1AF /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		4BC6AEBE230EEA2E0089A0A0 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		4BCE1C2023107A84000C630B /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
 		4BD19DC7230DCBB00002ACA9 /* Repertoire Entreprise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repertoire Entreprise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD19DCA230DCBB00002ACA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD19DCC230DCBB00002ACA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				4B7E43B7230E6BB8000453D0 /* PickerViewExtension.swift */,
 				4B085ADE230FC4FB00E54B7B /* ImagePickerExtension.swift */,
 				4BAEC504231030F000C4C1AF /* TextFieldExtension.swift */,
+				4BCE1C2023107A84000C630B /* NotificationCenterExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				4BD19DE6230DDE040002ACA9 /* ImageArrondie.swift in Sources */,
 				4BD19DD3230DCBB10002ACA9 /* Repertoire_Entreprise.xcdatamodeld in Sources */,
 				4BAEC505231030F000C4C1AF /* TextFieldExtension.swift in Sources */,
+				4BCE1C2123107A84000C630B /* NotificationCenterExtension.swift in Sources */,
 				4BD19DE8230DE2080002ACA9 /* BoutonArrondie.swift in Sources */,
 				4BD19DCD230DCBB00002ACA9 /* ViewController.swift in Sources */,
 				4B7E43B8230E6BB8000453D0 /* PickerViewExtension.swift in Sources */,
