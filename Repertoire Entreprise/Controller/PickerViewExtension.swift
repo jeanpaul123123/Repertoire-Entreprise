@@ -8,6 +8,7 @@
 
 import UIKit
 
+//#UIImagePickerController
 extension AjoutController: UIPickerViewDelegate, UIPickerViewDataSource {
     
     func miseEnPlacePicker() {

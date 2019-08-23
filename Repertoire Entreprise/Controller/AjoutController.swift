@@ -33,6 +33,9 @@ class AjoutController: UIViewController {
     
     //#coredatapicker
     var entreprises = [Entreprise]()
+    var imagePicker: UIImagePickerController?
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +43,9 @@ class AjoutController: UIViewController {
         //view.backgroundColor = .lightGray
         largeurContrainte.constant = view.frame.width
         scroll.contentSize = CGSize(width: largeurContrainte.constant, height: scroll.frame.height)
+        
+        //#UIImagePickerController
+        miseEnPlaceImagePicker()
         
         miseEnPlacePicker()
         
