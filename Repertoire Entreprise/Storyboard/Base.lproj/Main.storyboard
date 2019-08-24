@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonneCell" rowHeight="119" id="ESz-lx-k3G">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonneCell" rowHeight="119" id="ESz-lx-k3G" customClass="PersonneCell" customModule="Repertoire_Entreprise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="119"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ESz-lx-k3G" id="eDr-lx-ntZ" customClass="PersonneCell" customModule="Repertoire_Entreprise" customModuleProvider="target">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ESz-lx-k3G" id="eDr-lx-ntZ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="118.66666666666667"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -70,6 +70,12 @@
                                                 <constraint firstItem="Nhn-Eq-wcv" firstAttribute="centerY" secondItem="eDr-lx-ntZ" secondAttribute="centerY" id="jd6-pN-uem"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="adresseMail" destination="xxp-M3-lUp" id="iHm-PN-v7B"/>
+                                            <outlet property="nomETPrenom" destination="CS8-YS-QnZ" id="uiE-AM-SEu"/>
+                                            <outlet property="numerDeTel" destination="xxp-M3-lUp" id="aFD-dB-ZMC"/>
+                                            <outlet property="photoDeProfil" destination="Nhn-Eq-wcv" id="b5p-Jb-LH5"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

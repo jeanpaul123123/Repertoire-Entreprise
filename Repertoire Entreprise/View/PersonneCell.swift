@@ -10,11 +10,15 @@ import UIKit
 
 class PersonneCell: UITableViewCell {
 
+//    @IBOutlet weak var photoDeProfil: ImageArrondie!
+//    @IBOutlet weak var nomEtPrenom: UILabel!
+//    @IBOutlet weak var numerDeTel: UILabel!
+//    @IBOutlet weak var adresseMail: UILabel!
+    
     @IBOutlet weak var photoDeProfil: ImageArrondie!
-    @IBOutlet weak var nomEtPrenom: UILabel!
+    @IBOutlet weak var nomETPrenom: UILabel!
     @IBOutlet weak var numerDeTel: UILabel!
     @IBOutlet weak var adresseMail: UILabel!
-    
     var personne: Personne!
     
     func miseEnPlace(personne: Personne) {
@@ -29,7 +33,7 @@ class PersonneCell: UITableViewCell {
         if let nom = self.personne.nom {
             nomComplet += "Nom: " + nom
         }
-        nomEtPrenom.text = nomComplet
+        nomETPrenom.text = nomComplet
         let num = String(self.personne.numero)
         
         numerDeTel.text = num
