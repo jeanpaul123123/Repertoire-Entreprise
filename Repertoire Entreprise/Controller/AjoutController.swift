@@ -134,7 +134,7 @@ class AjoutController: UIViewController {
         // On enregistre les entitées
         appDelegate.saveContext()
         
-        //navigationController?.popViewController(animated: true)
+        navigationController?.popViewController(animated: true)
 
 
     }
