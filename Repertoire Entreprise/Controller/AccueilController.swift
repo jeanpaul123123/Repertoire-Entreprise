@@ -61,6 +61,25 @@ class AccueilController: UIViewController,UITableViewDelegate,UITableViewDataSou
         return UITableViewCell()
     }
     
+    //#suprr_par_un_slides
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        switch editingStyle {
+        case .delete:
+            if let personneASupprimmer = entreprises[indexPath.section].employes?.allObjects[indexPath.row] as? Personne {
+                contexte.delete(personneASupprimmer)
+                do {
+                    try contexte.save()
+                } catch {
+                    print(error.localizedDescription)
+                }
+                self.tableView.deleteRows(at: [indexPath], with: .fade)
+            }
+            
+        default: break
+        }
+    }
+    
     func fetchEntreprises() {
         let requete: NSFetchRequest<Entreprise> = Entreprise.fetchRequest()
         let tri = NSSortDescriptor(key: "nom", ascending: true)
