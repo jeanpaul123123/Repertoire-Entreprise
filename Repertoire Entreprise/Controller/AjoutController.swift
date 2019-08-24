@@ -105,7 +105,38 @@ class AjoutController: UIViewController {
         self.present(alerte, animated: true, completion: nil)
     }
     
+    //#création_personne
     @IBAction func ajouterPersonneAction(_ sender: Any) {
+        //view.endEditing(true)
+        view.endEditing(true)
+        
+        // création d'une entité
+        let nouvellePersonne = Personne(context: contexte)
+        
+        if prenomTextField.text != nil {
+            nouvellePersonne.prenom = prenomTextField.text!
+        }
+        if nomTextField.text != nil {
+            nouvellePersonne.nom = nomTextField.text!
+        }
+        // c'est un AND la ","
+        if let numero = telTextField.text, let numeroInt = Int32(numero) {
+            nouvellePersonne.numero = numeroInt
+        }
+        if mailTextField.text != nil {
+            nouvellePersonne.mail = mailTextField.text!
+        }
+        nouvellePersonne.photo = ImageDeProfil.image
+        // l'employeur est la row sélectionnée dans le pickerview
+        // inComponent : 0 signifie que l'on a que 1 colonne dans le picker
+        nouvellePersonne.employeur = entreprises[pickerView.selectedRow(inComponent: 0)]
+        
+        // On enregistre les entitées
+        appDelegate.saveContext()
+        
+        //navigationController?.popViewController(animated: true)
+
+
     }
     
 
